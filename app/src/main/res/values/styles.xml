@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="main_settings_vertical_LinearLayout">
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/margin_xlarge</item>
+        <item name="android:layout_marginRight">@dimen/margin_xlarge</item>
+    </style>
+
+    <style name="custom_frequency_single_left_TextView">
+        <item name="android:layout_marginLeft">@dimen/margin_xxlarge</item>
+        <item name="android:layout_marginTop">@dimen/margin_xlarge</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="custom_frequency_RelativeLayout_small_TextView">
+
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="custom_frequency_RelativeLayout_small_TextView_left" parent="custom_frequency_RelativeLayout_small_TextView">
+        <item name="android:layout_alignParentLeft">true</item>
+
+    </style>
+
+
+    <style name="custom_frequency_RelativeLayout_small_TextView_right" parent="custom_frequency_RelativeLayout_small_TextView">
+        <item name="android:layout_alignParentRight">true</item>
+
+    </style>
+
+    <style name="custom_frequency_RelativeLayout">
+
+        <item name="android:layout_marginLeft">@dimen/margin_xxlarge</item>
+        <item name="android:layout_marginRight">@dimen/margin_xxlarge</item>
+    </style>
+
+    <style name="custom_frequency_RelativeLayout_left_TextView">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="custom_frequency_RelativeLayout_Right_checkbox">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:strokeColor">@color/theme_color_green</item>
+    </style>
+
+    <style name="custom_frequency_seekbar">
+        <item name="android:progressDrawable">@drawable/green_seekbar</item>
+        <item name="android:thumb">@mipmap/seekbar_thumb_65</item>
+        <item name="android:layout_marginTop">@dimen/margin_xlarge</item>
+        <item name="android:paddingLeft">@dimen/margin_xxlarge</item>
+        <item name="android:paddingRight">@dimen/margin_xxlarge</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>
